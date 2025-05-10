@@ -1,46 +1,46 @@
-# Source code of vscodium.com
+# Código fonte de vscodium.com
 
-This repository contains the source code of the [www.vscodium.com website](https://www.vscodium.com).
-
-
-## Build process
-
-The website uses [Jekyll](https://jekyllrb.com/), a static website engine that compiles
-the jekyll template into a static html website.
-
-## How to download and test the website in localhost
+Este repositório contém o código fonte do [<i>site</i> da Web www.vscodium.com](https://www.vscodium.com).
 
 
-### Clone the repo
+## Processo de criação
+
+O <i>site</i> da Web utiliza [Jekyll](https://jekyllrb.com/), um mecanismo de <i>site</i> da Web estático que compila
+o modelo jekyll para um <i>site</i> da Web <b>html</b> estático.
+
+## Como transferir e testar o <i>site</i> da Web no servidor local (<i>localhost</i>)
+
+
+### Clonar o repositório
 ```
 git clone https://github.com/VSCodium/vscodium.github.io
 
 cd vscodium.github.io
 ```
 
-### Install jekyll and launch the development server
+### Instalar jekyll e inicie o servidor de desenvolvimento
 
-Install jekyll from the [official website](https://jekyllrb.com/)
+Instale jekyll do [<i>site</i> da Web oficial](https://jekyllrb.com/)
 
-Or use the package manager of your GNU/Linux distribution (i.e. `sudo apt install jekyll`)
+Ou utilize o gestor de pacotes da sua distribuição GNU/Linux (exemplo, `sudo apt install jekyll`)
 
-and run the following command inside the site source to start a temporary server
+e execute o seguinte comando dentro da fonte do <i>site</i> para iniciar um serviço temporário
 
 ```
 jekyll serve
 ```
 
-then open a browser and go to
+depois abre um navegador e vá para
 
 [http://localhost:4000](http://localhost:4000)
 
 
-### Build and deploy the static code
+### Criar e implementar o código estático
 
-Run the following command inside the jekyll source
+Execute o seguinte comando dentro da fonte jekyll
 
 ```
 jekyll build
 ```
 
-and move the content of the **_site** folder in your webserver root to deploy the website
+e mova o conteúdo da pasta **_site** na raiz do seu servidor da Web para implementar o <i>site</i> da Web
